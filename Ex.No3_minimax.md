@@ -1,3 +1,4 @@
+### Ex.No: 3 Implementation of Minimax Search
 
 ### DATE:  11/03/2025                                                                        
 ### REGISTER NUMBER : 212222060311
