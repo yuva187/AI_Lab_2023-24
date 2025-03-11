@@ -1,4 +1,4 @@
-![Screenshot 2025-03-11 144136](https://github.com/user-attachments/assets/b46e5c6d-bbf6-4cbb-b742-e997890df6b9)# Ex.No: 3  Implementation of Minimax Search
+
 ### DATE:  11/03/2025                                                                        
 ### REGISTER NUMBER : 212222060311
 ### AIM: 
