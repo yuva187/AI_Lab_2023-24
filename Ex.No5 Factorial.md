@@ -13,7 +13,7 @@ To  write  a logic program for finding the factorial of given number using SWI-P
 
 ### Program:
 
-'''
+```
 
 fact(N,Res):-
     N>0,
@@ -23,7 +23,7 @@ fact(N,Res):-
 fact(0,1).
 
 
-'''
+```
 
 
 
