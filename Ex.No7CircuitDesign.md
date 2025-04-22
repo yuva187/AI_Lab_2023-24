@@ -1,6 +1,6 @@
 # Ex.No: 7  Logic Programming –  Logic Circuit Design
-### DATE:                                                                            
-### REGISTER NUMBER : 
+### DATE:  15/04/2025                                                                         
+### REGISTER NUMBER :  212222060311
 ### AIM: 
 To write a logic program to design a circuit like half adder and half subtractor.
 ###  Algorithm:
@@ -15,17 +15,41 @@ To write a logic program to design a circuit like half adder and half subtractor
 
 ### Program:
 
+```
+ha (A, B, Sum, Carry) :
+ xor(A,B,Sum),
+ and(A, B, Carry) .
+hs (A, B, Diff, Borrow) :
+ xor(A, B, Diff),
+ not (A, A_not),
+ and (A_not, B, Borrow) .
+fa(A,B,Cin,S,Cout) :
+ xor(A,B,X), 
+ xor(X,Cin,S),
+ and(X,Cin,Y),
+ or(Y,Z,Cout).
+and(0,0,0).
+and(0,1,0).
+and(l,l,l).
+and(1,0,0).
+xor(0,0,0). 
+xor(0,1,1).
+xor(1,0,1).
+xor(1,1,0).
+not(0, 1) .
+not(1,0). 
+or(0,1 1).
+or(1,0 1).
+or(0,0 0).
+or(l,1 1).
 
-
-
-
-
-
-
-
-
+```
 
 ### Output:
+![image](https://github.com/user-attachments/assets/f17b6319-1ad3-4660-a4d8-1488cb734f2b)
+![image](https://github.com/user-attachments/assets/35e96c68-d3be-4926-8d8d-4cd9d447831b)
+![image](https://github.com/user-attachments/assets/ea4d23e9-c3a5-4b31-81bc-4bd4e38db411)
+![image](https://github.com/user-attachments/assets/4f85ec44-1656-4983-a3b9-cccbfa335888)
 
 
 
