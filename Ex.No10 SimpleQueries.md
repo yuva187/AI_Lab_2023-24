@@ -22,11 +22,11 @@ Construct the FOL representation for the following sentences <br>
    Convert into clause form and Prove that John like Apple by using Prolog. <br>
 
 ### Program:
-likes(john, X) :- food(X).
-food(apple).
-food(chicken).
-eats(sue, X) :- eats(bill, X).
-eats(bill, peanuts).
+likes(john, X) :- food(X). <br>
+food(apple). <br>
+food(chicken). <br>
+eats(sue, X) :- eats(bill, X). <br>
+eats(bill, peanuts). <br>
 
 ### Output:
 ![image](https://github.com/user-attachments/assets/083d53a4-a92d-452e-b31d-92d87ce74439)
@@ -40,9 +40,9 @@ Consider the following facts and represent them in predicate form: <br>
 Convert the facts in predicate form to clauses and then prove by resolution: “Steve likes BK301 course”<br> 
 
 ### Program:
-have_fun_course(bk301).
-likes(steve, X) :- easy(X).
-easy(X) :- have_fun_course(X).
+have_fun_course(bk301). <br>
+likes(steve, X) :- easy(X). <br>
+easy(X) :- have_fun_course(X). <br>
 
 ### Output:
 ![image](https://github.com/user-attachments/assets/52551faa-25ad-4f3c-bd6f-700aca6363b7)
@@ -52,11 +52,11 @@ Consider the statement <br>
 “This is a crime for an American to sell weapons to hostile nations. The Nano , enemy of America has some missiles and its missiles were sold it by Colonal West who is an American” <br> 
 Convert to Clause form and prove west is criminal by using Prolog.<br> 
 ### Program:
-hostile(nano).
-american(west).
-missile(missile1).
-sells(west, missile1, nano).
-criminal(X) :- american(X), sells(X, Y, Z), missile(Y), hostile(Z).
+hostile(nano). <br>
+american(west). <br>
+missile(missile1). <br>
+sells(west, missile1, nano). <br>
+criminal(X) :- american(X), sells(X, Y, Z), missile(Y), hostile(Z). <br>
 
 ### Output:
 ![image](https://github.com/user-attachments/assets/f3b2bb9c-313b-487c-aac9-f9c4c71360d2)
