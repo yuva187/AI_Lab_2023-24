@@ -1,5 +1,5 @@
 # Ex.No: 13 Learning – Use Supervised Learning  
-### DATE:                                                                            
+### DATE: 13/05/2025                                                                           
 ### REGISTER NUMBER : 212222060311
 ### AIM: 
 To write a program to train a classifier for phishing website detection using supervised learning.
@@ -86,6 +86,7 @@ demo.launch()
 ```
 
 ### Output:
+![Screenshot 2025-05-19 215744](https://github.com/user-attachments/assets/f06a8344-d316-4041-87dd-fccca1f69c29)
 
 ### Result:
 Thus, the phishing website classifier was successfully trained using supervised learning and was able to make predictions based on user inputs.
